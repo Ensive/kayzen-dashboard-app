@@ -1,0 +1,40 @@
+.Sidebar {
+  background-color: #354555;
+  width: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.Sidebar__logo {
+  align-items: center;
+  background-color: #313e4e;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  justify-content: center;
+  width: 100%;
+  opacity: .8;
+}
+
+.Sidebar__item {
+  height: 50px;
+  border-bottom: 1px solid #313e4e;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sidebar__item::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #606a76;
+  border-radius: 50%;
+}

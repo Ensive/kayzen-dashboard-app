@@ -1,0 +1,8 @@
+.Footer {
+  bottom: 0;
+  justify-content: flex-end;
+  left: 0;
+  padding: 0 30px;
+  position: absolute;
+  width: 100%;
+}

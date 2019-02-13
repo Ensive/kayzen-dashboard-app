@@ -1,0 +1,19 @@
+.SelectWrapper {
+  display: flex;
+  flex-flow: row;
+  margin: 0 0 15px;
+}
+
+.Select {
+  display: flex;
+  margin: 0 20px 0 0;
+}
+
+.Select label {
+  font-weight: 600;
+  margin: 0 10px 0 0;
+}
+
+.Select select {
+  flex: 0 1 auto;
+}

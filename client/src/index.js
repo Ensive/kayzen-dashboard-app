@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
-import App from './components/App/App';
+import App from './App/App';
 import * as serviceWorker from './serviceWorker';
+
+// styles
+import 'normalize.css/normalize.css';
+import './styles/index.css';
+import './styles/Container.scss';
+import './styles/Box.scss';
+import './styles/Select.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

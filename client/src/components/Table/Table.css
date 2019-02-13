@@ -1,0 +1,12 @@
+.Table {
+  width: 100%;
+}
+
+.Table__header {
+  display: flex;
+  flex-flow: row;
+}
+
+.Table__title {
+  flex: 1 0 auto;
+}

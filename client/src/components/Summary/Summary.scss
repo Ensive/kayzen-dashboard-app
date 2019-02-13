@@ -1,0 +1,47 @@
+.Summary {
+  color: #282c34;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Summary__title,
+.Summary__number {
+  font-size: 30px;
+}
+
+.Summary__title {
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.Summary__item {
+  display: flex;
+  flex-flow: row;
+  margin: 0 0 28px;
+}
+
+.Summary__name {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.Summary__number {
+  color: #50897A;
+  flex: 1;
+  font-weight: 600;
+  text-align: right;
+}
+
+.Summary__item--income {
+  margin: 50px 0 0;
+
+  .Summary__number {
+    font-size: 35px;
+    color: #B76CE7;
+  }
+  .Summary__name {
+    font-size: 31px;
+  }
+}

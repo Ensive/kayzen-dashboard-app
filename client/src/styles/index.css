@@ -1,8 +1,5 @@
-body, html {
-  background-color: #282c34;
-}
-
 body {
+  background-color: #282c34;
   position: relative;
   margin: 0;
   padding: 0;
@@ -18,14 +15,53 @@ code {
     monospace;
 }
 
+/* :root {
+  font-size: calc(1vw + 1vh + .5vmin);
+} */
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-.Container {
-  max-width: 1920px;
-  min-height: calc(100vh - 100px);
-  padding: 0 20px 30px;
+.Main {
+  margin: 0 0 0 50px;
+  padding: 0 0 50px;
+  background-color: #EFEFEF;
+  min-height: 100vh;
+}
+
+.Wrapper {
+  display: flex;
+  flex-flow: row;
+  /* margin: 0 0 20px; */
+}
+
+.Header,
+.Footer {
+  background-color: #282c34;
+  color: #fff;
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+}
+
+.Text,
+.Title {
+  color: #282c34;
+}
+
+.Text.Text--small {
+  font-size: 12px;
+}
+
+.Text.Text--gray {
+  color: #B5B6B9;
+}
+
+.Title {
+  font-size: 20px;
+  margin: 0 0 30px;
 }
